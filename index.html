@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="titulo">Tarefa</h1>
+    <p class="sub">Vai pegar o que for digitado no input e colocar dentro do array e listar </p>
+    <form class="form">
+        <input type="text" id="tarefa" placeholder="digite a tarefa " class="input">
+        <input type="date" id="conclusao">
+        <button type="button"  onclick="fnSalvarTarefa();fnExibirTarefa();" class="botao">Salvar</button>
+    </form>
+
+    <ul id="lista-tarefas"></ul>
+    <script src="app.js"></script>
+
+</body>
+</html>
